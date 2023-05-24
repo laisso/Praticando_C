@@ -6,7 +6,7 @@ int main(){
     int valor, valor2 ; // criei uma variavel para guardar um valor do tipo inteiro
 
 
-    // atribuiÁ„o -> atribuir um valor a uma variavel
+    // atribui√ß√£o -> atribuir um valor a uma variavel
 
     valor = 50;
 
@@ -17,7 +17,7 @@ int main(){
     scanf("%d", &valor2);
 
 
-    printf ("\n\n Sua idade:%d \n\n", valor); // vari·vel valor fica depois da vÌrgula e fora das aspas
+    printf ("\n\n Sua idade:%d \n\n", valor); // vari√°vel valor fica depois da v√≠rgula e fora das aspas
     printf (" Idade mae:%d \n\n", valor2);
 
 
