@@ -3,11 +3,15 @@
 
 int main()
 {
-    char nome[50];// variável com capacidade para armazenar até 50 caracteres
-
+    char nome[50];// variÃ¡vel com capacidade para armazenar atÃ© 50 caracteres
     printf("Digite seu nome:");
-    scanf("%s", nome );// %s é para leitura de uma sequência de caracteres, como por exemplo nome
-    printf("\nSeja Bem-vindo %s ! \n", nome);
+    scanf("%s", nome );// %s Ã© para leitura de uma sequÃªncia de caracteres, como por exemplo nome
+
+    char sobrenome[50];
+    printf("Digite seu sobrenome:");
+    scanf("%s", sobrenome);
+
+    printf("\nSeja Bem-vindo %s %s! \n", nome, sobrenome);
 
     char CPF[11];
     printf ("\nPorfavor, digite seu CPF: ");
@@ -15,4 +19,3 @@ int main()
     printf ("\nConfirme se o CPF esta correto: %s \n", CPF);
 
     return 0;
-}
