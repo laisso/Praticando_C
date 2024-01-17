@@ -1,23 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define PI 3.1415 // define È algo que n„o pode ser alterado jamais em meu cÛdigo
+#define PI 3.1415 // define √© algo que n√£o pode ser alterado jamais em meu c√≥digo
 
 int main()
 
 {
     printf("------------------------------------------------------------------------------------------------------------------ \n\n");
 
-    //DeclaraÁ„o de vari·veis
+    //Declara√ß√£o de vari√°veis
+    
     int media = 1 ;
-    // valores com vÌrgula de precis„o simples
+    // valores com v√≠rgula de precis√£o simples
     float nota = 8.6;
-    // notaÁ„o cientÌfica para n˙meros reais
+    // nota√ß√£o cient√≠fica para n√∫meros reais
     double aleatorio = 0.000074;
 
     printf("O valor de media: %d \n\nO valor da nota : %.1f \n\naleatorio : %f \n\n", media, nota, aleatorio);
 
-    // Regra para vari·vel, sem espaÁos,acentos, palavras reservadas,n„o comeÁar com n˙meros
+    // Regra para vari√°vel, sem espa√ßos,acentos, palavras reservadas,n√£o come√ßar com n√∫meros
 
     printf("------------------------------------------------------------------------------------------------------------------ \n\n");
 
@@ -32,7 +33,7 @@ int main()
 
     printf("------------------------------------------------------------------------------------------------------------------ \n\n");
 
-    // soma simples pedindo para o usu·rio o valor dar vari·veis a e b
+    // soma simples pedindo para o usu√°rio o valor dar vari√°veis a e b
 
     int a, b ;
 
@@ -43,7 +44,7 @@ int main()
 
     printf("------------------------------------------------------------------------------------------------------------------ \n\n");
 
-    // Soma do PI declarado em #define mais a vari·vel a que o usu·rio escolher
+    // Soma do PI declarado em #define mais a vari√°vel a que o usu√°rio escolher
 
     float conclusao = a + PI ;
 
