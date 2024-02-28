@@ -20,6 +20,7 @@ int main(){
     l++;
   }
 
+  //terceira repetição 
   int a = 1;
   do{
     printf("%d\n", a);
