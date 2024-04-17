@@ -23,7 +23,8 @@ int main() {
   scanf("%d", &C1.idade);
 
 
-  while (getchar() != '\n');// para Limpar buffer de entrada e fazer o fgets funcionar
+  while (getchar() != '\n');/* para Limpar buffer de entrada do scanf e fazer o fgets funcionar, mas você pode colocar tudo que é usado 
+  fgets antes do scanf que funciona também */
 
   printf("Digite seu nome: ");
   fgets(C1.nome, 100 , stdin);
@@ -55,3 +56,5 @@ int main() {
 
   return 0;
 }
+
+
