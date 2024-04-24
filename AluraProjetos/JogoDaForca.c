@@ -8,7 +8,7 @@ char PalavraSecreta[20];
 sprintf(PalavraSecreta, "MELANCIA"); // sprintf recebe MELANCIA
 
 int acertou = 0;
-int enforcou = 0;
+int enforcou = 1;
 
 
 do{
@@ -31,3 +31,4 @@ for(int i = 0; i < strlen(PalavraSecreta); i++){
 return 0;
 
 }
+
