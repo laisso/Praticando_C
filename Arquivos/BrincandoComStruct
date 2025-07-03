@@ -1,0 +1,109 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/*Faça um programa que receba os dados de 10 pessoas e mostre a média dos salários,
+mostre o nome das pessoas que possuem salário maior que R$3.000 e quantas pessoas tem o salário menor que 2.000,00*/
+
+struct Endereco {
+    char rua [100];
+    char bairro [100];
+    int numero;
+};
+
+struct Data {
+    int dia;
+    int mes;
+    int ano;
+};
+
+struct funcionario {
+    char nome [100];
+    float salario;
+    struct Endereco endereco;
+    struct Data nascimento;
+};
+
+
+int main()
+{
+     struct funcionario Funcionarios[10];
+
+    for (int i = 0 ;i <10; i++){
+        printf("Funcionario %d \n", i + 1);
+
+        printf("Nome:");
+        scanf(" %s", Funcionarios[i].nome);
+        int c;
+        while ((c = getchar()) != '\n' && c != EOF);
+
+        printf("Salario:");
+        scanf(" %f", &Funcionarios[i].salario);
+        while ((c = getchar()) != '\n' && c != EOF);
+
+        printf("Dados de endereco:\n");
+
+        printf("Rua: ");
+        scanf(" %s", Funcionarios[i].endereco.rua);
+        while ((c = getchar()) != '\n' && c != EOF);
+
+        printf("Bairro:");
+        scanf(" %s", Funcionarios[i].endereco.bairro);
+        while ((c = getchar()) != '\n' && c != EOF);
+
+        printf("Numero:");
+        scanf(" %d", &Funcionarios[i].endereco.numero);
+        while ((c = getchar()) != '\n' && c != EOF);
+
+        printf("Data de nascimento:\n");
+
+        printf("Dia:");
+        scanf(" %d", &Funcionarios[i].nascimento.dia);
+        while ((c = getchar()) != '\n' && c != EOF);
+
+        printf("Mes: ");
+        scanf(" %d", &Funcionarios[i].nascimento.mes);
+        while ((c = getchar()) != '\n' && c != EOF);
+
+        printf("Ano: ");
+        scanf(" %d", &Funcionarios[i].nascimento.ano);
+        while ((c = getchar()) != '\n' && c != EOF);
+
+    }
+
+    for (int i = 0; i<10; i++){
+        printf("\n\nFuncionario %d \n", i + 1);
+        printf("Nome: %s\n", Funcionarios[i].nome);
+        printf("Salario: %.2f\n", Funcionarios[i].salario);
+        printf("Rua: %s, Bairro: %s, Numero: %d\n", Funcionarios[i].endereco.rua, Funcionarios[i].endereco.bairro, Funcionarios[i].endereco.numero);
+        printf("Data de nascimento: %d/%d/%d\n", Funcionarios[i].nascimento.dia, Funcionarios[i].nascimento.mes, Funcionarios[i].nascimento.ano);
+    }
+
+    //Média dos salários
+    float SomaSalarios;
+
+    for (int i = 0; i<10; i++){
+        SomaSalarios = SomaSalarios + Funcionarios[i].salario;
+    }
+
+    float MediaDosSalarios = SomaSalarios / 10;
+
+    printf("\n\nResultado:\n");
+    printf("Media dos salarios: %.2f\n", MediaDosSalarios);
+
+    printf("\n\nQuem recebe mais que 3.000: \n");
+    for (int i = 0; i<10; i++){
+        if (Funcionarios[i].salario > 3000.00){
+            printf("%s\n",Funcionarios[i].nome);
+    }
+
+    }
+    printf("\n\nQuem recebe menos que 2.000: \n");
+    for (int i = 0; i<10; i++){
+        if (Funcionarios[i].salario < 2000.00){
+            printf("%s\n", Funcionarios[i].nome);
+        }
+    }
+
+
+    return 0;
+}
