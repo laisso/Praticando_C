@@ -8,4 +8,4 @@ Aqui está uma visão geral dos projetos contidos neste repositório:
 Este repositório é uma coletânea de exercícios e projetos práticos
 
 ### 🎮 RafaBalleriniaula
-Foi criado como parte de um tutorial, servindo como uma demonstração de como aplicar conceitos de C para criar algo interativo ou funcional.
+Foi criado como parte de um tutorial, servindo como uma demonstração de como aplicar conceitos de C para criar algo interativo e funcional, como a calculadora. 
