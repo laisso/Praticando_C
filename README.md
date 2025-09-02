@@ -5,7 +5,7 @@ Este repositório é uma coleção de projetos desenvolvidos em Linguagem C. O o
 Aqui está uma visão geral dos projetos contidos neste repositório:
 
 ## 📁 Arquivos
-Este projeto explora a manipulação de arquivos em C. Ele pode incluir exemplos de leitura, escrita, atualização e exclusão de dados em diferentes tipos de arquivos (texto, binário, etc.). É um ótimo recurso para quem deseja aprender a interagir com o sistema de arquivos.
+Este repositório é uma coletânea de exercícios e projetos práticos
 
 ## 🎮 RafaBalleriniaula
 Embora o nome sugira uma aula, este projeto provavelmente contém exemplos práticos ou um pequeno jogo. Ele foi criado como parte de um tutorial, servindo como uma demonstração de como aplicar conceitos de C para criar algo interativo ou funcional.
