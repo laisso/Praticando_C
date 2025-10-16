@@ -1,8 +1,4 @@
-### 📁 Arquivos
-Este repositório é uma coletânea de exercícios e projetos práticos
 
-### 🎮 RafaBalleriniaula
-Criação de uma calculadora na linguagem C
 
 <h2>📁 Arquivos</h2>
 <p>Este repositório é uma coletânea de <strong>exercícios e projetos práticos</strong> desenvolvidos durante meus estudos.</p>
